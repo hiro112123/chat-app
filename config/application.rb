@@ -17,10 +17,10 @@ module ChatApp
     # the framework and any gems in your application.
 
     config.generators do |g|
-      g.stylesheets fales
-      g.javascripts fales
-      g.helper fales
-      g.test_framework fales
+      g.stylesheets false
+      g.javascripts false
+      g.helper false
+      g.test_framework false
     end
   end
 end
