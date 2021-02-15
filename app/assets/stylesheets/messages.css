@@ -17,16 +17,42 @@
   background-color: #253141;
   height: 100px; 
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user a{
+  font-size: 16px;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.chat-button a {
+  border: solid 1px lightblue;
+  padding: 14px;
+  font-size: 10px;
+  color: deepskyblue;
+  text-decoration: none;
 }
 
 .side-main {
   background-color: #2f3e51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
+}
+
+.room {
+  padding: 20px 0 40px;
+}
+
+.room-name a {
+  color: white;
+  text-decoration: none;
 }
 
 .main-header {
-  background-color: #ffffff;
   height: 100px;
   padding: 0 40px;
 }
